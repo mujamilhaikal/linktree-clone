@@ -3,7 +3,7 @@ h1,
 h2,
 h3,
 p {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Plus Jakarta Sans", cursive;
 }
 
 body {
@@ -17,6 +17,7 @@ body {
   );
   margin: 0;
   padding: 0;
+  font-family: "Plus Jakarta Sans", cursive;
 }
 
 .container {
@@ -25,6 +26,7 @@ body {
   align-items: center;
   height: 100vh;
   padding: 20px; /* Tambahkan padding untuk memberi ruang di sekitar profile-card */
+  font-family: "Plus Jakarta Sans", cursive;
 }
 
 .profile-card {
@@ -36,6 +38,7 @@ body {
   max-width: 400px;
   width: 100%; /* Ubah lebar menjadi 100% agar sesuai dengan padding .container */
   margin: 0 10px; /* Tambahkan margin agar profile-card tidak terlalu dekat dengan tepi .container */
+  font-family: "Plus Jakarta Sans", cursive;
 }
 
 .profile-picture {
@@ -49,17 +52,20 @@ body {
 .profile-name {
   font-size: 24px;
   margin-bottom: 10px;
+  font-family: "Plus Jakarta Sans", cursive;
 }
 
 .profile-description {
   font-size: 16px;
   margin-bottom: 20px;
+  font-family: "Plus Jakarta Sans", cursive;
 }
 
 .social-links {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  font-family: "Plus Jakarta Sans", cursive;
 }
 
 .social-link {
@@ -87,6 +93,7 @@ body {
   font-size: 14px;
   color: #333;
   text-align: center;
+  font-family: "Plus Jakarta Sans", cursive;
 }
 
 /* Responsivitas pada perangkat kecil */
