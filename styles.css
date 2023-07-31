@@ -1,0 +1,109 @@
+body,
+h1,
+h2,
+h3,
+p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    45deg,
+    #ffd1b0,
+    #ff829a,
+    #e27da1,
+    #846c98,
+    #356e9a
+  );
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px; /* Tambahkan padding untuk memberi ruang di sekitar profile-card */
+}
+
+.profile-card {
+  text-align: center;
+  background-color: rgba(248, 248, 248, 0.463);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%; /* Ubah lebar menjadi 100% agar sesuai dengan padding .container */
+  margin: 0 10px; /* Tambahkan margin agar profile-card tidak terlalu dekat dengan tepi .container */
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.profile-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  margin: 8px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.social-link i {
+  margin-right: 8px;
+}
+
+.social-link:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+/* Responsivitas pada perangkat kecil */
+@media (max-width: 768px) {
+  .profile-card {
+    padding: 20px;
+  }
+
+  .profile-name {
+    font-size: 20px;
+  }
+
+  .profile-description {
+    font-size: 14px;
+  }
+
+  .social-link {
+    padding: 6px 12px;
+  }
+}
