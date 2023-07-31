@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function () {
+
 // Initialize AOS library
 AOS.init();
 
@@ -95,4 +97,4 @@ const currentYear = new Date().getFullYear();
 // Set the footer text to include the current year
 footer.textContent = `©️ ${currentYear} with ❤️ Muhamad Haikal Mujamil.`;
 
-
+});
