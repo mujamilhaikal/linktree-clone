@@ -32,8 +32,8 @@ body {
 
 .profile-card {
   text-align: center;
-  background-color: rgba(248, 248, 248, 0.463);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(248, 248, 248, 0.333);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.062);
   padding: 30px;
   border-radius: 8px;
   max-width: 400px;
