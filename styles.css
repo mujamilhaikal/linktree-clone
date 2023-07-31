@@ -18,6 +18,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Plus Jakarta Sans", cursive;
+  overflow: hidden;
 }
 
 .container {
@@ -25,7 +26,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  /* Tambahkan padding untuk memberi ruang di sekitar profile-card */
+  padding: 10px; /* Tambahkan padding untuk memberi ruang di sekitar profile-card */
   font-family: "Plus Jakarta Sans", cursive;
 }
 
@@ -112,5 +113,9 @@ body {
 
   .social-link {
     padding: 6px 12px;
+  }
+  /* Misalnya, pada perangkat kecil, kurangi ukuran .profile-picture */
+  .profile-picture {
+    width: 20%;
   }
 }

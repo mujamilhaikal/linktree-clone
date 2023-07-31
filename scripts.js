@@ -97,4 +97,10 @@ const currentYear = new Date().getFullYear();
 // Set the footer text to include the current year
 footer.textContent = `©️ ${currentYear} with ❤️ Muhamad Haikal Mujamil.`;
 
+// Menggunakan JavaScript untuk mencegah scroll melalui interaksi pengguna
+window.addEventListener("scroll", function (e) {
+  e.preventDefault();
+  window.scrollTo(0, 0);
+});
+
 });
