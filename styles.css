@@ -25,7 +25,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
   padding: 5px; /* Tambahkan padding untuk memberi ruang di sekitar profile-card */
   font-family: "Plus Jakarta Sans", cursive;
 }
