@@ -3,6 +3,12 @@ document.addEventListener("DOMContentLoaded", function () {
 // Initialize AOS library
 AOS.init();
 
+// No scroling
+window.addEventListener("scroll", function (e) {
+  e.preventDefault();
+  window.scrollTo(0, 0);
+});
+
 // Lazy loading images
 const images = document.querySelectorAll("img[data-src]");
 
@@ -98,9 +104,5 @@ const currentYear = new Date().getFullYear();
 footer.textContent = `©️ ${currentYear} with ❤️ Muhamad Haikal Mujamil.`;
 
 // Menggunakan JavaScript untuk mencegah scroll melalui interaksi pengguna
-window.addEventListener("scroll", function (e) {
-  e.preventDefault();
-  window.scrollTo(0, 0);
-});
 
 });
